@@ -8,5 +8,5 @@ range.each do |num|
     p "Bitmaker"
   else
     p num
-  end 
+  end
 end
