@@ -1,0 +1,27 @@
+fav_colors = ["red", "yellow", "blue", "green"]
+ages = [25, 35, 29, 22, 34]
+coin = ["tail", "tail", "tail", "head", "head"]
+artists = ["Will Smith","Jhonny Depp","Tom Cruise"]
+fav_colors2 = [:red , :yellow, :blue, :green]
+
+words = {Apple: "A popular red fruit", Cricket: "A sports played with a bat and a ball", Bottle: "A container that stores water"}
+movie = {Star_Wars: 1973, Avengers: 2013, The_Dark_Knight: 2008}
+cities = {Toronto: 2700000, Karachi: 21200000, London: 8788000}
+friends = {Roger: 25, Patrick: 20, Lucas: 18}
+
+#Exercise 2
+#1
+fav_colors.delete_at(fav_colors.length - 1)
+p fav_colors
+#2
+cities.store(:Mumbai, 18400000)
+p cities
+#3
+coin.reverse!
+p coin
+#4
+p cities[:Toronto]
+#5
+artists.each do |chr|
+    puts "I think #{chr} is great!"
+end
